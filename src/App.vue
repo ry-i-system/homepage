@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <a>Home Page Site</a>
+    <a style="font-size: 24px;">Home Page Site</a>
     <router-link to="/">Top</router-link>
     <router-link to="/home">Home</router-link>
     <router-link to="/about">About</router-link>
@@ -19,6 +19,7 @@
 
 #nav {
   padding: 30px;
+  background-color: beige;
 }
 
 #nav a {
