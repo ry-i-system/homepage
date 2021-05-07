@@ -9,6 +9,11 @@
 </template>
 
 <style>
+body {
+  background-image: url("./assets/background.jpg");
+  background-repeat: repeat;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
