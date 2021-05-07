@@ -4,9 +4,27 @@
     <router-link to="/">Top</router-link>
     <router-link to="/home">Home</router-link>
     <router-link to="/about">About</router-link>
+    <router-link to="/contact">Contact</router-link>
   </div>
   <router-view/>
+  <p class="copyright">
+    &copy; {{ now }} Home Page Site.
+  </p>
 </template>
+
+<script>
+export default {
+  data: () => {
+    return {
+      now: ''
+    };
+  },
+  created () {
+    const d = new Date()
+    this.now = d.getFullYear()
+  }
+}
+</script>
 
 <style>
 body {
