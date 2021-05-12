@@ -1,15 +1,19 @@
 <template>
   <div id="nav">
-    <a style="font-size: 24px;">Home Page Site</a>
-    <router-link to="/">Top</router-link>
-    <router-link to="/home">Home</router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/contact">Contact</router-link>
+    <router-link style="font-size: 24px;" to="/">BinSite</router-link>
+    <router-link to="/home">自己紹介</router-link>
+    <router-link to="/about">事業内容</router-link>
+    <router-link to="/contact">お問い合わせ</router-link>
   </div>
+  <br>
   <router-view/>
-  <p class="copyright">
-    &copy; {{ now }} Home Page Site.
-  </p>
+  <br>
+  <br>
+  <div id="footer">
+    <p class="copyright">
+      &copy; {{ now }} BinSite.
+    </p>
+  </div>
 </template>
 
 <script>
@@ -54,5 +58,17 @@ body {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#footer {
+  padding: 5px;
+  background-color: beige;
+}
+
+#footer p {
+  font-weight: lighter;
+  color: #2c3e50;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 </style>

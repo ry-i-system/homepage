@@ -1,6 +1,8 @@
 <template>
   <div class="about">
-    <h1>about page</h1>
+    <div>
+      <p>サーバ構築・WEBアプリケーション開発を中心に活動しています。</p>
+    </div>
   </div>
 </template>
 
@@ -9,3 +11,7 @@ export default {
   name: 'About'
 }
 </script>
+
+<style scoped>
+
+</style>

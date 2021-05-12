@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <h1>top page</h1>
+    <h1>トップページ</h1>
   </div>
 </template>
 
@@ -9,3 +9,7 @@ export default {
   name: 'Top'
 }
 </script>
+
+<style scoped>
+
+</style>

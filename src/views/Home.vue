@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>home page</h1>
+    <h1>自己紹介ページ</h1>
   </div>
 </template>
 
@@ -9,3 +9,7 @@ export default {
   name: 'Home'
 }
 </script>
+
+<style scoped>
+
+</style>
